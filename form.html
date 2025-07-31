@@ -1,3 +1,43 @@
+<h1> Meu Formulário </h1>
 <form action="https://formspree.io/f/xgvzzpvy" method="POST" >
-    
-</form>
+    <p>
+        <label for=""> Digite seu Nome: </label>
+        <input placeholder="Nome" type="text" required name="Nome" id=""> <br>
+    </p>
+    <p>
+        <label for=""> Digite seu Email: </label>
+        <input placeholder="Email" type="email" required name="Email" id=""> <br>
+    </p>
+    <p>
+        <label for=""> Digite seu Telefone: </label>
+        <input placeholder="Telefone" type="tel" required name="Telefone" id=""> <br>
+    </p>
+    <p>
+        <label for="">Digite sua Mensagem: </label>
+        <textarea placeholder="Mensagem" name="Mensagem" rows="10" cols="40" id=""></textarea>
+    </p>
+    <p>
+        <label for=""> Escolha os Esportes que você pratica </label>
+        <ul>
+            <input value="SIM" type="checkbox" name="Judo" id=""> Judo <br>
+            <input value="SIM" type="checkbox" name="Soccer" id=""> Futebol
+        </ul>
+        <input value="SIM" type="checkbox" name="termosContrato" id=""> Eu Aceito os Termos e Condições
+    </p>
+    <p>
+        <label for=""> Qual a sua cor favorita? </label>
+        <ul>
+            <input value="Vermelho" type="radio" name="corFavorita" id=""> Vermelho <br>
+            <input value="Azul" type="radio" name="corFavorita" id=""> Azul <br>
+            <input value="Amarelo" type="radio" name="corFavorita" id=""> Amarelo
+        </ul>
+    </p>
+    <p>
+        <label for="">Escolha sua Cidade: </label>
+        <select name="" id="">
+            <option> São Paulo </option>
+            <option> Rio de Janeiro </option>
+            <option> São José dos Campos </option>
+        </select>
+    </p>
+    <button type="submit" value="Enviar"> Enviar </button>
