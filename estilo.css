@@ -5,16 +5,16 @@
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 38px;
     color: #2C3E50;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
+    font-style: normal ;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 32px;
     color: #2C3E50;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 26px;
     color: #2C3E50;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     color: #4A4A4A;
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
@@ -61,22 +61,40 @@ p {
 }
 
 #container{
-    background-color: #0022ff;
-    width: 100%;
+    grid-template-columns: 25% auto;
+    display: grid;
+    grid-column-gap: 40px;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 #sidebar{
-    width: 90%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 #content{
-    width: 90%;
-    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#content h3{
+    text-align: center;
 }
 
 .list{
     list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.card h3 {
+    padding-left: 40px;
 }
 
 #contactList i {
